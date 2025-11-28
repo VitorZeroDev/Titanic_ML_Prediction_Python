@@ -21,8 +21,3 @@ O modelo foi treinado com dados históricos e permite que o usuário insira info
 - **Matplotlib** (visualização)
 - **Scikit-learn** (modelagem e métricas)
 - **Joblib** (salvar e carregar modelos)
-
----
-
-## 📁 Estrutura do projeto
-
