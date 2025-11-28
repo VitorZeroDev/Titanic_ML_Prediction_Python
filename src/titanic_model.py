@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, median_absolute_error
 # ======================================================
 # 2. Leitura dos dados
 # ======================================================
-url = '/content/drive/MyDrive/Programação em Python para Data Science/titanic (1).xlsx'
+url = 'data/titanic_data.xlsx'
 titanic = pd.read_excel(url)
 
 # Visualizar os primeiros registros
@@ -143,3 +143,4 @@ else:
     mensagem = "O passageiro provavelmente NÃO VAI sobreviver.(0)"
 
 print(mensagem)
+
