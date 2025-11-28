@@ -1,23 +1,75 @@
-# 🚢 Titanic Survival Prediction com Python
+🚢 Titanic Survival Prediction com Python
 
-Este projeto realiza análise de dados e previsão de sobrevivência dos passageiros do Titanic utilizando **Machine Learning**.  
-O modelo foi treinado com dados históricos e permite que o usuário insira informações de um passageiro para prever se ele sobreviveria ou não.
+Um projeto de Machine Learning que analisa dados históricos do Titanic e prevê se um passageiro teria sobrevivido ou não.
+Perfeito para aprender exploração de dados, pré-processamento, modelagem preditiva e avaliação de modelos de forma prática e interativa.
 
----
+📊 Objetivo
 
-## 📊 Objetivo
+Explorar e limpar a base de dados do Titanic.
 
-- Explorar e limpar a base de dados do Titanic.
-- Treinar modelos de Machine Learning (LinearSVC).
-- Avaliar desempenho com métricas de acurácia e erro absoluto.
-- Permitir entrada manual de dados para prever sobrevivência.
+Treinar modelos de Machine Learning (como LinearSVC).
 
----
+Avaliar desempenho com métricas de acurácia e erro absoluto.
 
-## 🛠️ Tecnologias utilizadas
+Permitir entrada manual de dados para prever a sobrevivência de um passageiro.
 
-- **Python 3.x**
-- **Pandas** e **NumPy** (manipulação de dados)
-- **Matplotlib** (visualização)
-- **Scikit-learn** (modelagem e métricas)
-- **Joblib** (salvar e carregar modelos)
+🛠️ Tecnologias utilizadas
+
+Python 3.x
+
+Pandas e NumPy — manipulação e análise de dados
+
+Matplotlib — visualização de dados
+
+Scikit-learn — modelagem, treinamento e avaliação
+
+Joblib — salvar e carregar modelos treinados
+
+⚙️ Funcionalidades
+
+✔️ Exploração e visualização dos dados do Titanic
+✔️ Pré-processamento e limpeza de dados
+✔️ Treinamento de modelos de Machine Learning
+✔️ Avaliação de desempenho com métricas precisas
+✔️ Previsão de sobrevivência com entrada manual
+✔️ Possibilidade de testar diferentes algoritmos
+
+🧩 Como rodar o projeto
+
+Clone o repositório
+
+git clone https://github.com/seu-usuario/titanic-survival-prediction.git
+cd titanic-survival-prediction
+
+
+Instale as dependências
+
+pip install -r requirements.txt
+
+
+Executar o script principal
+
+python main.py
+
+
+Inserir os dados do passageiro quando solicitado para obter a previsão.
+
+📁 Estrutura do projeto
+/docs         → documentação
+/models       → modelos treinados salvos
+/src          → scripts do projeto
+/tests        → testes e exemplos
+README.md     → este arquivo
+LICENSE       → licença MIT
+
+🔍 Possíveis melhorias
+
+Testar outros algoritmos como Random Forest ou XGBoost
+
+Criar interface gráfica ou web app para entrada de dados
+
+Otimizar pré-processamento e engenharia de features
+
+📌 Licença
+
+Este projeto está sob a licença MIT.
