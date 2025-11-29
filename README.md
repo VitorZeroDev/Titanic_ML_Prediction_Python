@@ -38,19 +38,22 @@ Joblib — salvar e carregar modelos treinados
 
 Clone o repositório
 
+```bash
 git clone https://github.com/seu-usuario/titanic-survival-prediction.git
 cd titanic-survival-prediction
-
+```
 
 Instale as dependências
 
+```bash
 pip install -r requirements.txt
-
+```
 
 Executar o script principal
 
+```bash
 python main.py
-
+```
 
 Inserir os dados do passageiro quando solicitado para obter a previsão.
 
